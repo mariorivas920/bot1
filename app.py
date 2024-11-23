@@ -6,7 +6,7 @@ st.balloons()
 st.title("💬 Asistente Virtual | Facultad de Ciencias Químicas")
 st.write(
    "Por la ciencia para el bien del hombre. "
-   "Dirígete al sitio oficial de la facultad para obtener información de [contacto] (https://uach.mx/fcq/)"
+   "Dirígete al sitio oficial de la facultad para obtener información de [contacto](https://uach.mx/fcq/)"
 )
 openai_api_key = st.secrets["api_key"] 
 # Create an OpenAI client.
