@@ -3,9 +3,10 @@ from openai import OpenAI
 
 st.balloons()
 # Show title and description.
-st.title("💬 Pregúntame")
+st.title("💬 Asistente Virtual | Facultad de Ciencias Químicas")
 st.write(
-   "Este Chatbot es para mi morcito, no te pases, pregunta lo que gusteis. "
+   "Por la ciencia para el bien del hombre. "
+   "Dirígete al sitio oficial de la facultad para obtener información de [contacto] (https://uach.mx/fcq/)"
 )
 openai_api_key = st.secrets["api_key"] 
 # Create an OpenAI client.
